@@ -10,7 +10,9 @@ export default function Footer() {
               className="w-8 h-8 rounded-lg"
             />
 
-            <span className="text-xl text-gray-500 font-semibold">3Depth</span>
+            <span className="text-xl text-gray-500 font-semibold">
+              DepthStage
+            </span>
           </a>
 
           <nav className="flex flex-wrap justify-center gap-6">

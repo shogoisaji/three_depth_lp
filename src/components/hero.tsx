@@ -15,7 +15,9 @@ export default function Hero() {
               className="w-24 h-24 rounded-lg"
             />
 
-            <span className="text-4xl text-gray-500 font-semibold">3Depth</span>
+            <span className="text-4xl text-gray-500 font-semibold">
+              DepthStage
+            </span>
           </div>
           <h1 className="text-3xl text-gray-400  md:text-5xl font-bold mb-6">
             Feel inspired to craft your perfect display. Every tweak brings your

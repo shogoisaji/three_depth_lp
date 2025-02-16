@@ -68,7 +68,7 @@ const PrivacyPolicy = () => {
       ],
 
       footer: {
-        established: "制定日：2024年12月30日",
+        established: "制定日：2025年2月16日",
       },
     },
     en: {
@@ -134,7 +134,7 @@ const PrivacyPolicy = () => {
       ],
 
       footer: {
-        established: "Established: December 30, 2024",
+        established: "Established: February 16, 2025",
       },
     },
   };
@@ -142,7 +142,7 @@ const PrivacyPolicy = () => {
   const currentContent = content[language];
 
   return (
-    <div className="bg-custom-dark text-gray-100">
+    <div className="bg-custom-dark text-gray-500">
       <div className="max-w-2xl mx-auto p-6 ">
         <div className="flex justify-end mb-4">
           <button

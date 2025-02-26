@@ -27,7 +27,11 @@ export default function Hero() {
             Transform 2D into Dynamic 3D Visuals - No Design Degree Required
           </p>
           <div className="flex justify-center">
-            <a href="/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://apps.apple.com/jp/app/depthstage/id6742071558"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="/app_store.svg"
                 alt="Download on the App Store"

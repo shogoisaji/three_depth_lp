@@ -9,7 +9,7 @@ const PrivacyPolicy = () => {
     jp: {
       title: "プライバシーポリシー",
       intro:
-        "このプライバシーポリシーは、Triviiia（以下、「本サービス」といいます。）が提供するサービスにおける、個人情報の取り扱いについて説明するものです。",
+        "このプライバシーポリシーは、DepthStage（以下、「本サービス」といいます。）が提供するサービスにおける、個人情報の取り扱いについて説明するものです。",
       sections: [
         {
           title: "1. 収集する情報",
@@ -69,12 +69,14 @@ const PrivacyPolicy = () => {
 
       footer: {
         established: "制定日：2025年2月16日",
+        revised: "改訂日：2025年3月15日",
+        contact: "お問い合わせ先：isajiappdev@gmail.com",
       },
     },
     en: {
       title: "Privacy Policy",
       intro:
-        "This Privacy Policy describes how Triviiia (hereinafter referred to as 'the Service') handles personal information when you use our service.",
+        "This Privacy Policy describes how DepthStage (hereinafter referred to as 'the Service') handles personal information when you use our service.",
       sections: [
         {
           title: "1. Information We Collect",
@@ -135,6 +137,8 @@ const PrivacyPolicy = () => {
 
       footer: {
         established: "Established: February 16, 2025",
+        revised: "Revised: March 15, 2025",
+        contact: "Contact: isajiappdev@gmail.com",
       },
     },
   };
@@ -197,7 +201,15 @@ const PrivacyPolicy = () => {
           </div>
         ))}
 
-        <p className="mt-8">{currentContent.footer.established}</p>
+        <div className="mt-8 space-y-2">
+          <p>{currentContent.footer.established}</p>
+          {currentContent.footer.revised && (
+            <p>{currentContent.footer.revised}</p>
+          )}
+          {currentContent.footer.contact && (
+            <p>{currentContent.footer.contact}</p>
+          )}
+        </div>
       </div>
     </div>
   );
